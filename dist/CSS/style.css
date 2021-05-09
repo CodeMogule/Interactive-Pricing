@@ -1,0 +1,105 @@
+/* Set up */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    background-image: url(../IMGS/bg-pattern.svg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.row{
+    margin: auto;
+    max-width: 1140px;
+}
+
+/*header*/
+
+header{
+    background-image:
+     url(../IMGS/pattern-circles.svg);
+     background-repeat: no-repeat;
+     background-size:contain;
+     height: 20vh;
+     margin-top: 50px;
+     background-position: center;
+     text-align: center;
+}
+
+header h1{
+    font-size: 150%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    transform: translate(0,30px);
+    letter-spacing: 1px;
+}
+
+header h5{
+    transform: translate(0,30px);
+    color:rgb(109, 109, 109)
+}
+
+/* Monthly Number */
+
+.background-body{
+    border: 2px solid white;
+    width: 40%;
+background-color: white;
+margin: auto;
+border-radius: 5px;
+margin-top: 50px;
+}
+
+
+.month{
+display: flex;
+gap: 250px;
+margin: auto;
+text-align: center;
+margin-top: 40px;
+}
+
+.price{
+    list-style: none;
+    
+}
+
+.price li{
+    display: inline-block;
+    transform: translate(0,-10px);
+}
+
+.price li:first-child{
+    font-size: 180%;
+}
+
+.price li:last-child{
+    font-size: 90% !important;
+    letter-spacing: 3px;
+    color:rgb(109, 109, 109) ;
+    font-weight: 700;
+}  
+
+.month h5{
+    font-size: 150%;
+}
+
+.month small{
+    font-size: 90% !important;
+    letter-spacing: 3px;
+    color:rgb(109, 109, 109) ;
+    font-weight: 700;
+    margin-left: 20px;
+}
+
+.month h6{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 200%;
+}
+
