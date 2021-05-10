@@ -53,6 +53,7 @@ background-color: white;
 margin: auto;
 border-radius: 5px;
 margin-top: 50px;
+padding: 2%;
 }
 
 
@@ -62,11 +63,12 @@ gap: 250px;
 margin: auto;
 text-align: center;
 margin-top: 40px;
+width: 100vw;
 }
 
 .price{
     list-style: none;
-    
+   transform: translate(-30px);
 }
 
 .price li{
@@ -90,11 +92,11 @@ margin-top: 40px;
 }
 
 .month small{
-    font-size: 90% !important;
+    font-size: 70% !important;
     letter-spacing: 3px;
     color:rgb(109, 109, 109) ;
     font-weight: 700;
-    margin-left: 20px;
+    margin-left: 2px;
 }
 
 .month h6{
@@ -102,4 +104,64 @@ margin-top: 40px;
     font-weight: bold;
     font-size: 200%;
 }
+
+/* Slider */
+.slider{
+    -webkit-appearance:none;
+    width: 95%;
+    height: 7px;
+    outline: none;
+    border-radius: 5px;
+    background:linear-gradient(90deg, #f55c47 50%, #e1e5ea 50% );
+    margin-top: 30px;
+    opacity: 0.6;
+}
+
+.slider::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    appearance: none;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #f55c47;
+    cursor: pointer;
+    background-image: url(../IMGS/icon-slider.svg);
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 10px 10px 59px 10px  #f55c47;
+}
+
+.slider::-webkit-slider-thumb:hover{
+    background-color: #9b392c;
+    opacity: 3;
+}
+
+/*
+.btn-custom{
+    height: 104px;
+    width: 48px;
+    position: relative;
+    top: 295px;
+    left: 50%;
+    transform: translate(-50%,-370%);
+    z-index: 2;
+}
+
+.range-btn{
+    height: 40px;
+    width: 40px;
+    background-image: url(../IMGS/icon-slider.svg);
+    background-size: 70%;
+    background-position: center;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+    
+    background-color:#f55c47 ;
+    box-shadow: 10px 10px 59px 10px  #f55c47;
+    opacity: 0.8;
+}
+*/
+
 
