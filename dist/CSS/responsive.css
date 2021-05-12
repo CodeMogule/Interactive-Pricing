@@ -94,6 +94,11 @@
 html{
     background-size: 120vh;
 }
+.background-body{
+    transform: translateY(-30px);
+    width: 90%;
+    height: 65vh;
+  }
 .billing{
     gap: 8px;
     font-size: 70%;
