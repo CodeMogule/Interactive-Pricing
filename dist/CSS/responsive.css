@@ -1,0 +1,128 @@
+@media only screen and (max-width:1200px){
+    .billing{
+        padding:5px ;
+        padding-left: 40px;
+        padding-top: 40px;
+    }
+
+    .trial a{
+        padding: 10px;
+        font-size: 80%;
+    }
+
+    .small-text{
+        display:none ;
+    }
+}
+
+@media only screen and (max-width:1024px){
+    .billing{
+        width: 100vw;
+        padding: 1%;
+        padding-top: 40px;
+    }
+
+    .trial button{
+        padding: 7px;
+        font-size: 70%;
+        width: 37%;
+    }
+}
+
+@media only screen and (max-width:768px){
+    .background-body{
+      transform: translateY(-30px);
+      width: 50%;
+    }
+    .month{
+        display: block;
+       text-align: center;
+    }
+    .month small{
+        position: relative;
+        bottom: 25px;
+    }
+    .range-slider{
+        transform: translateY(-50px);
+    }
+    .price{
+        transform: translateY(75px);
+    }
+    .billing{
+        margin-top: 25px;
+        padding-left: 25px;
+    }
+    .large-text{
+        display: none;
+    }
+    .small-text{
+        display: block;
+    }
+    .promises{
+        font-size: 90%;
+    }
+}
+
+@media only screen and (max-width:425px){
+    .background-body{
+        transform: translateY(-30px);
+        width: 90%;
+        height: 65vh;
+      }
+      .trial{
+          display: block;
+          text-align: center;
+          font-size: 80%;
+          margin: 50px;
+          padding: 1em;
+      margin: 0 -0.5rem
+      }
+
+      .promises li{
+          margin: -10px;
+      }
+
+      .trial button{
+          position: relative;
+          bottom: 30px;
+         padding: 4%;
+         width: 50%;
+      }
+}
+
+@media only screen and (max-width:376px){
+html{
+    background-size: 120vh;
+}
+.billing{
+    gap: 8px;
+    font-size: 70%;
+}
+.switch{
+ height: 23px;  
+ width: 48px;
+ margin-left: 6px;
+}
+.trial button{
+    width: 100%;
+}
+}
+
+@media only screen and (max-width:321px){
+
+header h1{
+    font-size:80% ;
+    padding: 4%;
+}
+
+header h5{
+    padding: 21%;
+    transform: translateY(-50px);
+}
+
+
+.billing{
+    gap: 5px;
+    font-size: 70%;
+}
+}

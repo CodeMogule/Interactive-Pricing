@@ -9,6 +9,7 @@ html{
     font-size: 20px;
     font-family: 'Lato', sans-serif;
     background-image: url(../IMGS/bg-pattern.svg) ;
+    height: 20vh;
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
@@ -55,6 +56,7 @@ margin: auto;
 border-radius: 5px;
 margin-top: 50px;
 padding: 2%;
+box-shadow:6px 11px 39px -11px #000000
 }
 
 
@@ -110,10 +112,11 @@ margin-right:20px ;
     height: 7px;
     outline: none;
     border-radius: 5px;
-    background:linear-gradient(90deg, #f55c47 50%, #e1e5ea 50% );
+    background:linear-gradient(90deg, rgb(245, 92, 71) 50%, rgb(225, 229, 234) 50% );
     margin-top: 30px;
     opacity: 0.6;
 }
+
 
 .slider::-webkit-slider-thumb{
     -webkit-appearance: none;
@@ -141,6 +144,7 @@ margin-right:20px ;
      gap: 20px;
     padding-left: 22%;
     padding-top: 10%;
+    margin-bottom: 40px;
  }
 
  .billing h6{
@@ -161,7 +165,9 @@ margin-right:20px ;
     font-size: 60%;
 }
 
-
+.small-text{
+    display:none ;
+}
 
 
 
@@ -222,6 +228,40 @@ margin-right:20px ;
 
 
   /* TRIAL SECTION*/
+
+  .trial{
+      display: flex;
+      justify-content: space-between;
+      margin-top: 40px;
+      border-top: 1px solid  #e1e5ea;
+      padding: 1em;
+      margin: 0 -1.4rem
+  }
+
+  .trial button{
+      transform: translateY(60px);
+      text-decoration: none;
+      color: white;
+      background-color: #21094e;
+      border-radius: 20px;
+      padding: 10px;
+      margin-bottom: 100px;
+      width: 30%;
+      text-align: center;
+      font-size: 90% ;
+      letter-spacing: 1px;
+      word-spacing: 1px;
+      transition: 0.5s;
+      border: transparent;
+      cursor: pointer;
+  }
+
+  .trial button:hover{
+    background-color: #110527;
+    color: white
+  }
+
+
 .promises{
     list-style: none;
     margin-right: 20px;

@@ -1,11 +1,17 @@
 const slider = document.querySelector('.slider')
-const custom = document.querySelector('.btn-custom')
-const progressBar = document.querySelector(".progress-bar")
+const value = document.querySelector('.value')
 
-slider.addEventListener('mousemove', function(){
-    let color = ':linear-gradient(90deg, #f55c47)' + '%,#e1e5ea' + '%)'
-    slider.style.background = color
-})
+
+value.textContent = `$${slider.value}`
+
+slider.oninput = function(){
+    value.textContent =  `$${this.value}`
+    let i = this.value*3
+    let counter = 0
+    let color = 'linear-gradient(90deg, rgb(245, 92, 71)' + i + '%,rgb(225, 229, 234)' + i + '%)'
+   slider.style.background = color
+}
+
 
 
 
